@@ -15,4 +15,3 @@ WORKDIR /opt/workdir
 ENV PATH /opt/workdir/pipeline-scripts:$PATH
 ENV PYTHONPATH /opt/workdir/python-testutils:$PYTHONPATH
 
-FROM base AS test
