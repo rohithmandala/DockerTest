@@ -1,4 +1,4 @@
-FROM python:3.5.6 AS base
+FROM python:3.5.6
 
 ARG bb_auth_string
 
